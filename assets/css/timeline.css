@@ -1,0 +1,230 @@
+/*  ============= WEB BROWSER RESETS ============ */
+* { margin: 0; padding: 0; border: none }
+*, *::before, *::after { box-sizing: border-box }
+html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
+scroll-behavior: smooth; scroll-padding-top: 20px }
+body { line-height: 1.5; min-height: 100vh }
+@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
+@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
+img { width: 100%; height: auto; display: block }
+input, button, textarea, select { font: inherit }
+
+/* ================= ENDS ================ */
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body {
+    text-align: center;
+    background-color: #393E46;
+    color: whitesmoke;
+}
+
+.timeline {
+  border-left: 3px solid #00ADB5;
+  text-align: left;
+  padding-left: 20px;
+  list-style: none;
+  width: 70%;
+  padding: 50px 50px 20px 50px;
+}
+
+.timeline h2, .timeline h3 {
+	font-size: 1.1rem;
+	margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.timeline p {
+	font-size: 0.9rem;
+  color: #e0e0e0;
+}
+
+/*
+@media (max-width: 1079px ) { 
+  .nav-links li:nth-child(1) {
+    visibility: hidden;
+  } }
+@media (min-width: 1080px ) { 
+  .nav-links li:nth-child(1) {
+    padding-right: 40vw;
+    place-content:center;
+  } }
+@media (min-width: 1200px ) { 
+  .nav-links li:nth-child(1) {
+    padding-right: 50vw;
+    place-content:center;
+  } }*/
+
+.rectangle{
+    width: 100px;
+    height: 35px;
+    border: 2px solid #2196F3;
+    padding: 3px 5px 0px 0px;
+}
+
+.timeline .event:before {
+  left: -207px;
+  content: attr(data-date);
+  text-align: right;
+  font-weight: 100;
+  font-size: 0.9em;
+  min-width: 120px;
+}
+
+.timeline .event:before,
+.timeline .event:after {
+    position: absolute;
+    display: block;
+    top: 0;
+}
+
+.timeline .event:after {
+  -webkit-box-shadow: 0 0 0 3px #00ADB5;
+  box-shadow: 0 0 0 3px #00ADB5;
+  left: -55.8px;
+  margin-top: 10px;
+  background: #fff;
+  border-radius: 50%;
+  height: 9px;
+  width: 9px;
+  content: "";
+  top: 5px;
+}
+
+@media (max-width: 789px ) { 
+  .bodytime{
+    padding-left: 75px;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 800px ) { 
+  .bodytime{
+    padding-left: 175px;
+    padding-top: 50px;
+  }
+}
+@media (min-width: 1080px ) { 
+    .bodytime{
+      padding-left: 350px;
+      padding-top: 50px;
+  } }
+
+
+@media (max-width: 767px) {
+    .timeline .event:after {
+        left: -31.8px;
+    }
+}
+
+
+@media (min-width: 768px) {
+
+  .timeline .event>a {
+    position: absolute;
+    top: 0;
+    left: -180px;
+    top: 25px;
+}
+}
+
+@media (max-width: 767px) {
+    .timeline .event:before {
+        left: 0px;
+        text-align: left;
+    }
+}
+
+@media (max-width: 767px) {
+  .timeline .event {
+      padding-top: 30px;
+  }
+}
+
+
+@media (max-width: 767px) {
+  .timeline {
+      max-width: 98%;
+      padding: 25px;
+  }
+}
+.event{
+  position: relative;
+  padding-bottom: 35px;
+}
+
+.links{
+  padding-bottom: -8px;
+  list-style: disc;
+  padding-top: 10px;
+
+}
+.links li a{
+  position:relative;
+  text-decoration: none;
+  color: #467bd1;
+  margin-left: 10px;
+  font-size: 0.9rem;
+}
+
+.links li{
+  margin-left: 40px;
+}
+
+.nav-links ul li:hover::after {
+  width: 100%;
+}
+
+
+.badge {
+  display: inline-block;
+  padding: .25em .4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+  font-size: 65%;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  text-decoration: none;
+  width: fit-content;
+  padding-top: 2px;
+  text-align: center;
+  font-weight: 700;
+}
+
+
+.badge-know {
+  background-color: #6c757d;
+}
+
+.badge-content{
+  background-color: #c77171;
+}
+
+.badge-success {
+  color: #fff;
+  background-color: #28a745;
+}
+
+.badge-perso {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.badge-circle {
+  padding-right: .6em;
+  padding-left: .6em;
+  border-radius: 10rem;
+}
+
+.badge-info {
+  color: #fff;
+  background-color: #17a2b8;
+}
+
+.badge-dead{
+  color: #fff;
+  background-color: red;
+}
