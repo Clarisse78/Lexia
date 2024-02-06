@@ -6,7 +6,7 @@
     <title>Lucile Pelou - Timeline</title>
     <link rel="stylesheet" href="assets/css/lunevedy.min.css" />
     <link rel="stylesheet" href=" assets/css/global.css ">
-    <link rel="stylesheet" href=" assets/css/timeline.css ">
+    <link rel="stylesheet" href=" assets/css/timeline_min.css ">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
     <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
@@ -52,10 +52,23 @@
         <ul class="timeline">
             <li class="event" data-date="Sept 2022 - July 2024">
                 <h3>EPITA - Cycle préparatoire</h3>
-                <p>...</p>
-                <ul class="links">
-                    <li><a href="#"><i class="fas fa-link fa-fw"></i> See the website</a></li>
-                    <li><a href="https://github.com/Clarisse78/luciledorset.github.io"><i class="fab fa-github fa-fw"></i> See the open source repository</a></li>
+                <ul class="list">
+                    <li><a class="toggle">Second Year</a></li>
+                    <li><a class="toggle">First Year</a>
+                        <ul class="sub-list hidden">
+                            <a>Grade : </a>
+                            <li><a>Courses</a>
+                                <ul class="sub-sub-list">
+                                    <li><a>Maths</a></li>
+                                    <li><a>Algo</a></li>
+                                    <li><a>Prog</a></li>
+                                    <li><a>Ingeneer Sciences : NTS, Phys, Archi</a></li>
+                                    <li><a>Human Sciences : Expressions, Anglais</a></li>
+                                </ul>
+                            </li>
+                            <li><a>Projects</a></li>
+                        </ul>
+                    </li>
                 </ul>
             </li>
             <li class="event" data-date="Jan 2024 - May 2024">
@@ -76,6 +89,17 @@
 
     <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
 
+    <script>
+       document.addEventListener("DOMContentLoaded", function() {
+        const toggles = document.querySelectorAll(".toggle");
 
+        toggles.forEach(function(toggle) {
+            toggle.addEventListener("click", function() {
+                const targetSubList = toggle.nextElementSibling;
+                targetSubList.classList.toggle("hidden");
+            });
+        });
+    });
+    </script>
 </body>
 </html>
