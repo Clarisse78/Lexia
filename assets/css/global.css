@@ -24,6 +24,17 @@ input, button, textarea, select { font: inherit }
   background: #222831;
 }
 
+
+ul.links-wrappers li::after {
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #f44336;
+	display: block;
+	margin: 0;
+	transition: 0.5s;
+}
+/*
 @media (max-width: 767px) {
   .nav-links ul li a {
     color: whitesmoke;
@@ -70,4 +81,4 @@ input, button, textarea, select { font: inherit }
 
 .nav-links {
   margin-left: auto;
-}
+}*/

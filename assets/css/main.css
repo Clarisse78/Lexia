@@ -16,8 +16,8 @@ input, button, textarea, select { font: inherit }
 }
 
 body {
-    background-color: #393E46;
     color: whitesmoke;
+    background-color: #2d3748;
 }
 
 .footer{
@@ -34,6 +34,11 @@ body {
     box-sizing: border-box;
 }
 
+.about-color{
+  background-color: #393E46;
+
+}
+
 header.theme-light { background-color: var(--gray-800) }
 header.theme-light h1 { color: white }
 header.theme-light h2 { color: var(--white-000) }
@@ -46,6 +51,7 @@ header.theme-light .container-btn a.btn:nth-child(1):visited { border-color: #00
 
 header.theme-light .container-btn a.btn:nth-child(1):focus,
 header.theme-light .container-btn a.btn:nth-child(1):hover,
+
 header.theme-light .container-btn a.btn:nth-child(1):active { background-color: transparent; color: #00ADB5;}
 
 header.theme-light .container-btn a.btn:nth-child(2):focus,
@@ -196,7 +202,7 @@ h4{
 }
 
  .badge-logo{
-    width: 30px;
+    width: 29px;
     height: auto; 
  }
 
@@ -342,7 +348,8 @@ h4{
 
 
 .back:hover {
-  transform: scale(1);
+  transform: scale(1.15);
+  filter: brightness(105%);
 }
 
 
@@ -355,8 +362,8 @@ h4{
 	left: 0;
   border-radius: 6px;
 	border: 1px solid #3a404a;
-  transition: all 0.8s ease;
-  transform: scale(1.2);
+  transition: transform 2s, filter 0.75s ease-in-out;
+  transform: scale(1);
   border-radius: 4px;
 
 }

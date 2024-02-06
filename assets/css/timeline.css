@@ -228,3 +228,43 @@ body {
   color: #fff;
   background-color: red;
 }
+
+
+
+.container-btn a.btn:nth-child(1):link,
+ .container-btn a.btn:nth-child(1):visited { background-color: #00ADB5 }
+
+ .container-btn a.btn:nth-child(1):link,
+ .container-btn a.btn:nth-child(1):visited { border-color: #00ADB5 }
+
+.container-btn a.btn:nth-child(1):visited { color: white }
+.container-btn a.btn:nth-child(1) { color: white }
+
+.container-btn a.btn:nth-child(1):focus,
+ .container-btn a.btn:nth-child(1):hover,
+ .container-btn a.btn:nth-child(1):active { background-color: transparent; color: #00ADB5;}
+
+.container-btn a.btn:nth-child(2):focus,
+.container-btn a.btn:nth-child(2):hover,
+.container-btn a.btn:nth-child(2):active { background-color: #00ADB5 }
+
+.container-btn a.btn:nth-child(2):link,
+ .container-btn a.btn:nth-child(2):visited { border-color: #00ADB5 }
+
+ .container-btn a.btn:nth-child(2):link,
+.container-btn a.btn:nth-child(2):visited { color: #00ADB5 }
+
+.container-btn a.btn:nth-child(2):focus,
+.container-btn a.btn:nth-child(2):hover,
+.container-btn a.btn:nth-child(2):active { color: white }
+
+
+ .container-btn {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	row-gap: 30px;
+  column-gap: 68px;
+  justify-content: center;
+  padding-top: 30px;
+}
