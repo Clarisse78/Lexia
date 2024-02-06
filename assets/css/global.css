@@ -34,6 +34,20 @@ ul.links-wrappers li::after {
 	margin: 0;
 	transition: 0.5s;
 }
+
+
+@media (min-width: 768px) {
+  .logo-main{
+  width:25%;
+}
+}
+
+@media (max-width: 768px) {
+  .logo-main{
+  width:60%;
+}
+}
+
 /*
 @media (max-width: 767px) {
   .nav-links ul li a {

@@ -156,29 +156,30 @@ body {
 
 .list{
   padding-bottom: -8px;
-  list-style: disclosure-closed;
+  list-style: none;
   padding-top: 0px;
 }
 
 .sub-sub-list{
   list-style: disc;
+  margin-left: 30px;
 }
 
 
 .sub-list{
-  list-style: disclosure-closed;
+  list-style: none;
 }
 
-.list li a{
+.list li a:not(.sub-title-list){
   position:relative;
   text-decoration: none;
-  color: #959dac;
+  color: #d0d0d0;
   margin-left: 10px;
   font-size: 0.9rem;
 }
 
 .list li{
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .nav-links ul li:hover::after {
@@ -281,4 +282,25 @@ body {
 
 .hidden {
   display: none;
+}
+.sub-list {
+	margin-left: 8px;
+	padding-left: 1rem;
+	border-left: 2px solid #a0a0a0;
+}
+
+.list-icon{
+  margin-right: 5px;
+}
+
+.sub-title-list{
+  font-variant: small-caps;
+  font-size: 15px;
+  position:relative;
+  text-decoration: none;
+  color: #e6e6e6;
+}
+
+h3{
+  color: #e6e6e6;
 }
