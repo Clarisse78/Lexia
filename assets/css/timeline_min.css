@@ -121,7 +121,7 @@ body {
 
 @media (min-width: 768px) {
 
-  .timeline .event>a {
+  .timeline .event>a:not(.a-img) {
     position: absolute;
     top: 0;
     left: -180px;
@@ -303,4 +303,28 @@ body {
 
 h3{
   color: #e6e6e6;
+}
+
+
+.img-badge {
+  display: inline-block;
+  padding: .25em .4em;
+    padding-right: 0.4em;
+    padding-left: 0.4em;
+  font-size: 65%;
+  line-height: 1;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: .25rem;
+  text-decoration: none;
+  width: 20%;
+  padding-top: 2px;
+  text-align: center;
+}
+
+.a-img {
+	position: absolute;
+	top: 0;
+	left: -258px;
+	top: 25px;
 }
