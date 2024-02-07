@@ -17,22 +17,8 @@ input, button, textarea, select { font: inherit }
 
 body {
     color: whitesmoke;
-    background-color: #2d3748;
 }
 
-.footer{
-    margin: 2em 0 -2em;
-    padding: .5em 1.5em;
-    flex-wrap: wrap;
-    text-align: center;
-    background: #222831;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100px; 
-    padding: 20px;
-    box-sizing: border-box;
-}
 
 .about-color{
   background-color: #393E46;
