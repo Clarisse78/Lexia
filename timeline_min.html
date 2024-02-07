@@ -48,7 +48,7 @@
                 <h3>2nd year - Preparatory cycle</h3>
                 <div></div>
                 <ul class="list">
-                    <li><div class="toggle"><i class="fas fa-angle-right fa-fw"></i><span class="toggle-text">Hide details</span></div>
+                    <li class="under"><div class="toggle"><i class="fas fa-angle-down fa-fw gray"></i><span class="toggle-text">Hide details</span></div>
                         <ul class="sub-list">
                             <a class="sub-title-list"><i class="fas fa-graduation-cap fa-fw fa-fw list-icon"></i>Grade : 77%</a><br>
                             <a class="sub-title-list"><i class="fas fa-book fa-fw fa-fw list-icon"></i>Courses:</a>
@@ -71,7 +71,7 @@
                 <h3>Study Abroad</h3>
                 <div></div>
                 <ul class="list">
-                    <li><div class="toggle"><i class="fas fa-angle-right fa-fw"></i> <span class="toggle-text">Show details</span></div>
+                    <li class="under"><div class="toggle"><i class="fas fa-angle-right fa-fw gray"></i> <span class="toggle-text">Show details</span></div>
                         <ul class="sub-list hidden">
                             <a class="sub-title-list"><i class="fas fa-graduation-cap fa-fw fa-fw list-icon"></i>Grade : __%</a><br>
                             <a class="sub-title-list"><i class="fas fa-book fa-fw fa-fw list-icon"></i>Courses:</a>
@@ -82,13 +82,14 @@
                         </ul>
                     </li>
                 </ul>
+                <a class="a-img"><img class="img-badge" style="width:85%;left: 15px;position: absolute;" src="assets/img/logo_dorset.png"></a>
             </li>
             <li class="event" data-date="Sept 2022 - July 2023">
                 <h1>EPITA</h1>
                 <h3>1st year - Preparatory cycle</h3>
                 <div></div>
                 <ul class="list">
-                    <li><div class="toggle"><i class="fas fa-angle-right fa-fw"></i> <span class="toggle-text">Show details</span></div>
+                    <li class="under"><div class="toggle"><i class="fas fa-angle-right fa-fw gray"></i> <span class="toggle-text">Show details</span></div>
                         <ul class="sub-list hidden">
                             <a class="sub-title-list"><i class="fas fa-graduation-cap fa-fw fa-fw list-icon"></i>Grade : 70%</a><br>
                             <a class="sub-title-list"><i class="fas fa-book fa-fw fa-fw list-icon"></i>Courses:</a>
@@ -101,13 +102,14 @@
                         </ul>
                     </li>
                 </ul>
+                <a class="a-img"><img class="img-badge" src="assets/img/logo_epita.png"></a>
             </li>
             <li class="event" data-date="Sept 2019 - Jul 2022">
                 <h1>Lycée Saint Thèrese</h1>
                 <h3>Science</h3>
                 <div></div>
                 <ul class="list">
-                    <li><div class="toggle"><i class="fas fa-angle-right fa-fw"></i> <span class="toggle-text">Show details</span></div>
+                    <li class="under"><div class="toggle"><i class="fas fa-angle-right fa-fw gray"></i> <span class="toggle-text">Show details</span></div>
                         <ul class="sub-list hidden">
                             <a class="sub-title-list"><i class="fas fa-graduation-cap fa-fw fa-fw list-icon"></i>Grade : __%</a><br>
                             <a class="sub-title-list"><i class="fas fa-book fa-fw fa-fw list-icon"></i>Courses:</a>
@@ -141,7 +143,7 @@
                 const icon = toggle.querySelector("i");
                 if (targetSubList.classList.contains("hidden")) {
                     icon.classList.remove("fa-angle-down");
-                icon.classList.add("fa-angle-right");
+                    icon.classList.add("fa-angle-right");
                     toggle.querySelector(".toggle-text").textContent = "Show details";
                 } else {
                     icon.classList.remove("fa-angle-right");

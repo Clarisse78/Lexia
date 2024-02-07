@@ -317,7 +317,6 @@ h3{
   vertical-align: baseline;
   border-radius: .25rem;
   text-decoration: none;
-  width: 20%;
   padding-top: 2px;
   text-align: center;
 }
@@ -325,6 +324,20 @@ h3{
 .a-img {
 	position: absolute;
 	top: 0;
-	left: -258px;
+	left: -219px;
 	top: 25px;
+  width: 20%;
+
+}
+
+.under:hover{
+  filter: brightness(90%);
+}
+
+.toggle-text{
+  color: #cacaca;
+}
+
+.gray{
+  color: #cacaca;
 }
