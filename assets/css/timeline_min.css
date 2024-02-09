@@ -98,7 +98,7 @@ body {
     padding-top: 50px;
   }
 }
-@media (min-width: 800px ) { 
+@media (min-width: 790px ) { 
   .bodytime{
     padding-left: 175px;
     padding-top: 50px;
@@ -111,14 +111,14 @@ body {
   } }
 
 
-@media (max-width: 767px) {
+@media (max-width: 789px) {
     .timeline .event:after {
         left: -31.8px;
     }
 }
 
 
-@media (min-width: 768px) {
+@media (min-width: 789px) {
 
   .timeline .event>a:not(.a-img) {
     position: absolute;
@@ -128,21 +128,21 @@ body {
 }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 789px) {
     .timeline .event:before {
         left: 0px;
         text-align: left;
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 789px) {
   .timeline .event {
       padding-top: 30px;
   }
 }
 
 
-@media (max-width: 767px) {
+@media (max-width: 789px) {
   .timeline {
       max-width: 98%;
       padding: 25px;
@@ -320,13 +320,44 @@ h3{
   text-align: center;
 }
 
+
+
 .a-img {
 	position: absolute;
 	top: 0;
 	left: -219px;
 	top: 25px;
   width: 20%;
+}
 
+@media (max-width: 1375px) {
+  .a-img {
+    width: 25%;
+  }
+}
+
+@media (max-width: 1250px) {
+  .a-img {
+    width: 28%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .a-img {
+    width: 32%;
+  }
+}
+
+@media (max-width: 925px) {
+  .a-img {
+    width: 37%;
+  }
+}
+
+@media (max-width:800px) {
+  .a-img {
+    display: none;
+  }
 }
 
 .under:hover{
