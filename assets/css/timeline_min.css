@@ -371,3 +371,7 @@ h3{
 .gray{
   color: #cacaca;
 }
+
+.toggle{
+  cursor: pointer;
+}
