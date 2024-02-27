@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,252 +13,289 @@
     <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
 
 </head>
-<body style="max-width: 1920px; margin-left: auto; margin-right: auto;">
-    
-    <div     style="background-color: #393E46;">
 
-    <nav class="theme-dark"><div class="container-menu">
-        <a href="#" class="brand">
-            <img src="assets/img/logo_main2.png" class="logo-main" alt="Sample website logo">
-        </a>
-    
-        <div class="container-menu-links">
-    
-            <div class="nav-toggle" id="nav-toggle-btn" style="background:#222831;">
-                <div class="bar-1"></div>
-                <div class="bar-2"></div>
-                <div class="bar-3"></div>
+<body style="max-width: 1920px; margin-left: auto; margin-right: auto;">
+
+    <div style="background-color: #393E46;">
+
+        <nav class="theme-dark">
+            <div class="container-menu">
+                <a href="#" class="brand">
+                    <img src="assets/img/logo_main2.png" class="logo-main" alt="Sample website logo">
+                </a>
+
+                <div class="container-menu-links">
+
+                    <div class="nav-toggle" id="nav-toggle-btn" style="background:#222831;">
+                        <div class="bar-1"></div>
+                        <div class="bar-2"></div>
+                        <div class="bar-3"></div>
+                    </div>
+
+                    <ul class="links-wrapper">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="#">Timeline</a></li>
+                        <li><a href="travels.html">Travels</a></li>
+                        <li style="display:none"><a class="btn btn-solid btn-soft" id="btn-cta"
+                                href="/"><span>Contact</span><i class="fa fa-envelope" aria-hidden="true"></i>
+                            </a></li>
+                    </ul>
+                </div>
             </div>
-    
-            <ul class="links-wrapper">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#">Timeline</a></li>
-                <li><a href="travels.html">Travels</a></li>
-                <li><a class="btn btn-solid btn-soft" id="btn-cta" href="contact/index.html"><span>Contact</span><i class="fa fa-envelope" aria-hidden="true"></i>
-                </a></li>
-            </ul>
-        </div></div></nav>
+        </nav>
 
         <div class="container-btn">
             <a href="timeline_min.html" class="btn btn-soft btn-solid"><span>Timeline +</span></a>
         </div>
 
-    <div class="bodytime">
-        <ul class="timeline">
-            <li class="event" data-date="19 Febr 2024">
-                <h3>Start learning the SQL language</h3>
-                <p>Studied at Dorset College for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="4 Febr 2024">
-                <h3>Start learning the Rust language</h3>
-                <p>In parralel of my studies in Dorset, I also studied Epita's courses. Studied at EPITA for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="6 Febr 2024">
-                <h3>Start learning the Javascript language</h3>
-                <p>Studied at Dorset College for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="25 Jan 2024">
-                <h3>Start learning the Kotlin language</h3>
-                <p>Studied at Dorset College for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="16 Jan 2024">
-                <h3>Created a webdesign portfolio </h3>
-                <p>This website is a part of a school assignment at Dorset College in front end.</p>
-                <ul class="links">
-                    <li><a href="https://clarisse78.github.io/luciledorset.github.io/"><i class="fas fa-link fa-fw"></i> See the website</a></li>
-                    <li><a href="https://github.com/Clarisse78/luciledorset.github.io"><i class="fab fa-github fa-fw"></i> See the open source repository</a></li>
-                </ul>
-                <a class="badge badge-circle badge-info" ><i class="fas fa-university fa-fw"></i> School</a>
-                <a class="status badge badge-circle badge-perso" style="top:44px;"><i class="fas fa-star fa-fw"></i> Active</a>
-                <a class="badge badge-circle badge-info" style="top:63px;"><i class="fas fa-code-branch fa-fw"></i> Open source</a>
-        </li>
-            <li class="event" data-date="16 Jan 2024">
-                <h3>Learned the HTML and CSS language</h3>
-                <p>Studied at Dorset College for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="2024">
-                <p>1 new videos on my youtube channel</p>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="14 Dec 2023">
-                <p>Delivered SudokuCrafters, a group school project.</p>
-                <a class="badge badge-circle badge-info" ><i class="fas fa-university fa-fw"></i> School</a>
-            </li>
-            <li class="event" data-date="26 Nov 2023">
-                <h3>Start working on SudokuCrafters</h3>
-                <p>SudokuCrafters is a project that can solve a sudoku with a picture. Made in C langage.</p>
-                <ul class="links">
-                    <li><a  target = "_blank" href="https://clarisse78.github.io/SudokuCraftersSite/"><i class="fas fa-link fa-fw"></i> See the website</a></li>
-                    <li><a  target = "_blank" href="https://github.com/Clarisse78/SudokuCrafters"><i class="fab fa-github fa-fw"></i> See the open source repository</a></li>
-                </ul>
-                <a class="badge badge-circle badge-info" >
-                <i class="fas fa-university fa-fw"></i> School</a>
-                <a class="status badge badge-circle badge-success" style="top:44px;"><i class="fas fa-check fa-fw"></i> Finished</a>
-                <a class="badge badge-circle badge-info" style="top:63px;"><i class="fas fa-code-branch fa-fw"></i> Open source</a>
-            </li>
-            <li class="event" data-date="4 Sept 2023">
-                <h3>Learned the C language</h3>
-                <p>Studied at EPITA for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="25 August 2023">
-                <h3>Start learning the C language</h3>
-                <p>For prepare the second year at EPITA. I learned the basics of the C.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="July 2023">
-                <h3>Started the rework of Lunarys</h3>
-                <p>We decided to restart Lunarys with new objectives and better knowledge. All development will be done entirely by the team.</p>
-                <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
-                <a class="badge badge-circle badge-dead" style="top:44px;"><i class="fas fa-times fa-fw" ></i> Dead</a>
-            </li>
-            <li class="event" data-date="29 June 2023">
+        <div class="bodytime">
+            <ul class="timeline">
+                <li class="event" data-date="19 Febr 2024">
+                    <h3>Start learning the SQL language</h3>
+                    <p>Studied at Dorset College for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="4 Febr 2024">
+                    <h3>Start learning the Rust language</h3>
+                    <p>In parralel of my studies in Dorset, I also studied Epita's courses. Studied at EPITA for
+                        practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="6 Febr 2024">
+                    <h3>Start learning the Javascript language</h3>
+                    <p>Studied at Dorset College for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="25 Jan 2024">
+                    <h3>Start learning the Kotlin language</h3>
+                    <p>Studied at Dorset College for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="16 Jan 2024">
+                    <h3>Created a webdesign portfolio </h3>
+                    <p>This website is a part of a school assignment at Dorset College in front end.</p>
+                    <ul class="links">
+                        <li><a href="https://clarisse78.github.io/luciledorset.github.io/"><i
+                                    class="fas fa-link fa-fw"></i> See the website</a></li>
+                        <li><a href="https://github.com/Clarisse78/luciledorset.github.io"><i
+                                    class="fab fa-github fa-fw"></i> See the open source repository</a></li>
+                    </ul>
+                    <a class="badge badge-circle badge-info"><i class="fas fa-university fa-fw"></i> School</a>
+                    <a class="status badge badge-circle badge-perso" style="top:44px;"><i class="fas fa-star fa-fw"></i>
+                        Active</a>
+                    <a class="badge badge-circle badge-info" style="top:63px;"><i class="fas fa-code-branch fa-fw"></i>
+                        Open source</a>
+                </li>
+                <li class="event" data-date="16 Jan 2024">
+                    <h3>Learned the HTML and CSS language</h3>
+                    <p>Studied at Dorset College for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="2024">
+                    <p>1 new videos on my youtube channel</p>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="14 Dec 2023">
+                    <p>Delivered SudokuCrafters, a group school project.</p>
+                    <a class="badge badge-circle badge-info"><i class="fas fa-university fa-fw"></i> School</a>
+                </li>
+                <li class="event" data-date="26 Nov 2023">
+                    <h3>Start working on SudokuCrafters</h3>
+                    <p>SudokuCrafters is a project that can solve a sudoku with a picture. Made in C langage.</p>
+                    <ul class="links">
+                        <li><a target="_blank" href="https://clarisse78.github.io/SudokuCraftersSite/"><i
+                                    class="fas fa-link fa-fw"></i> See the website</a></li>
+                        <li><a target="_blank" href="/"><i class="fab fa-github fa-fw"></i> See the open source
+                                repository</a></li>
+                    </ul>
+                    <a class="badge badge-circle badge-info">
+                        <i class="fas fa-university fa-fw"></i> School</a>
+                    <a class="status badge badge-circle badge-success" style="top:44px;"><i
+                            class="fas fa-check fa-fw"></i> Finished</a>
+                    <a class="badge badge-circle badge-info" style="top:63px;"><i class="fas fa-code-branch fa-fw"></i>
+                        Open source</a>
+                </li>
+                <li class="event" data-date="4 Sept 2023">
+                    <h3>Learned the C language</h3>
+                    <p>Studied at EPITA for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="25 August 2023">
+                    <h3>Start learning the C language</h3>
+                    <p>For prepare the second year at EPITA. I learned the basics of the C.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="July 2023">
+                    <h3>Started the rework of Lunarys</h3>
+                    <p>We decided to restart Lunarys with new objectives and better knowledge. All development will be
+                        done entirely by the team.</p>
+                    <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
+                    <a class="badge badge-circle badge-dead" style="top:44px;"><i class="fas fa-times fa-fw"></i>
+                        Dead</a>
+                </li>
+                <li class="event" data-date="29 June 2023">
                     <h3>Created the website to present myself</h3>
                     <p>Personal website. It shows who I am and what I do.</p>
                     <ul class="links">
                         <li><a href="#"><i class="fas fa-link fa-fw"></i> See the website</a></li>
-                        <li><a href="https://github.com/Clarisse78/Lexia"><i class="fab fa-github fa-fw"></i> See the open source repository</a></li>
+                        <li><a href="https://github.com/Clarisse78/Lexia"><i class="fab fa-github fa-fw"></i> See the
+                                open source repository</a></li>
                     </ul>
                     <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
-					<a class="status badge badge-circle badge-perso" style="top:44px;"><i class="fas fa-star fa-fw"></i> Active</a>
-					<a class="badge badge-circle badge-info" style="top:63px;"><i class="fas fa-code-branch fa-fw"></i> Open source</a>
-            </li>
-            <li class="event " data-date="26 June 2023">
-                <h3>Start learning the Java language with Bukkit for Minecraft</h3>
-                <p>I have the projet to do a Minecraft server with a friend.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="13 June 2023">
-                <h3>Start learning HTML and CSS language</h3>
-                <p>I want to upgrade the website of Proxima's Quest so I learn the basics of the html.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="2 Jun 2023">
-                <h3>Started working on second part of Proxima's Quest</h3>
-                <p>After the final rendering of the project I decided to continue to work on it for some upgrade.</p>
-                <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
-                <a class="status badge badge-circle badge-perso" style="top:44px;"><i class="fas fa-star fa-fw"></i> Active</a>
-            </li>
-            <li class="event" data-date="30 May 2023">
-                <p>Delivered Proxima's Quest, a group school project.</p>
-                <a class="badge badge-circle badge-info" ><i class="fas fa-university fa-fw"></i> School</a>
-            </li>
-            <li class="event" data-date="29 May 2023">
-                <p>Passed the TOEIC Test: 718 / 990</p>
-                <a class="category badge badge-circle badge-perso" href="#"><i class="fas fa-award fa-fw"></i> Award</a>
-            </li>
-            <li class="event" data-date="April 2023">
-                <h3>Created the applications Notes</h3>
-                <p>I want to know my general average before it's out. This application calculate the general average at EPITA for the S1 and S2.</p>
-                <ul class="links">
-                    <li><a href="https://github.com/Clarisse78/Notes"><i class="fab fa-github fa-fw"></i> See the open source repository</a></li>
-                </ul>
-                <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
-                <a class="badge badge-circle badge-info" style="top:44px;"><i class="fas fa-code-branch fa-fw"></i> Open source</a>
-            </li>
-            <li class="event" data-date="February 2023">
-                <p>Passed the TOEIC Test: 703 / 990</p>
-                <a class="category badge badge-circle badge-perso" href="#"><i class="fas fa-award fa-fw"></i> Award</a>
-            </li>
-            <li class="event" data-date="26 Nov 2022">
-                <h3>Started working on Proxima's Quest</h3>
-                <p>Proxima's Quest is a video game made using Unity as part of a school assignment in a group project.</p>
-                <ul class="links">
-                    <li><a href="#"><i class="fas fa-link fa-fw"></i> See the website</a></li>
-                    <li><a href="https://godmelcorp.github.io/"><i class="fab fa-github fa-fw"></i> See the open source repository</a></li>
-                </ul>
-                <a class="badge badge-circle badge-info" ><i class="fas fa-university fa-fw"></i> School</a>
-                <a class="status badge badge-circle badge-success" style="top:44px;"><i class="fas fa-check fa-fw"></i> Finished</a>
-            </li>
-            <li class="event" data-date="1 Nov 2022">
-                <h3>Learned the C# language</h3>
-                <p>Studied at EPITA for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="1 Nov 2022">
-                <h3>Learned the Python language</h3>
-                <p>Studied at EPITA for practicals and school projects.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                    <a class="status badge badge-circle badge-perso" style="top:44px;"><i class="fas fa-star fa-fw"></i>
+                        Active</a>
+                    <a class="badge badge-circle badge-info" style="top:63px;"><i class="fas fa-code-branch fa-fw"></i>
+                        Open source</a>
                 </li>
-            <li class="event" data-date="7 Sept 2023">
-                <p>Passed the TOEIC Test: 599 / 990</p>
-                <a class="category badge badge-circle badge-perso" href="#"><i class="fas fa-award fa-fw"></i> Award</a>
-            </li>
-            <li class="event" data-date="2023">
-                <p>10 new videos on my youtube channel</p>
-                <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="5 Sept 2022">
-                <h3>Learned the OCaml language</h3>
-                <p>Studied at EPITA for practicals.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="11 Jul 2022">
-                <h3>Start learning Python language</h3>
-                <p>For prepare to the first year of EPITA, I decided to start learning programmation with python in first.</p>
-                <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
-            </li>
-            <li class="event" data-date="2022">
-                <p>6 new videos on my youtube channel</p>
-                <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="2021">
-                <p>25 new videos on my youtube channel</p>
-                <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="29 Mars 2020">
-                <h3>Started the developpement of Lunarys</h3>
-                <p>I have the projet to do a Minecraft server with a friend. This the first version of the server, later we have replaced this project by an other of the same name.</p>
-                <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
-                <a class="badge badge-circle badge-know" style="top:44px;" ><i class="fas fa-times fa-fw"></i> Rework</a>
-            </li>
-            <li class="event" data-date="2020">
-                <p>25 new videos on my youtube channel</p>
-                <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="2019">
-                <p>2 new videos on my youtube channel</p>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="2018">
-                <p>More than 10 new videos on my youtube channel</p>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="2017">
-                <p>More than 30 new videos on my youtube channel</p>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="11 Jul 2016">
-                <h3>My first youtube video</h3>
-                <p>I decided to post my first youtube video on my channel Clarisse78. This video is on Minecraft, on the Rinaorc server. This video was actually deleted.</p>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="2016">
-                <p>More than 40 new videos on my youtube channel</p>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-            </li>
-            <li class="event" data-date="2016">
-                <h3>Created my youtube channel: Clarisse78</h3>
-                <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
-                <ul class="links">
-                    <li><a href="https://www.youtube.com/channel/UC7ppQlFWO4Z8Ax9oVlr5-aQ" target="_blank"><i class="fas fa-link fa-fw"></i> See the youtube channel</a></li>
-                </ul>
-            </li>
-        </ul>
+                <li class="event " data-date="26 June 2023">
+                    <h3>Start learning the Java language with Bukkit for Minecraft</h3>
+                    <p>I have the projet to do a Minecraft server with a friend.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="13 June 2023">
+                    <h3>Start learning HTML and CSS language</h3>
+                    <p>I want to upgrade the website of Proxima's Quest so I learn the basics of the html.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="2 Jun 2023">
+                    <h3>Started working on second part of Proxima's Quest</h3>
+                    <p>After the final rendering of the project I decided to continue to work on it for some upgrade.
+                    </p>
+                    <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
+                    <a class="status badge badge-circle badge-perso" style="top:44px;"><i class="fas fa-star fa-fw"></i>
+                        Active</a>
+                </li>
+                <li class="event" data-date="30 May 2023">
+                    <p>Delivered Proxima's Quest, a group school project.</p>
+                    <a class="badge badge-circle badge-info"><i class="fas fa-university fa-fw"></i> School</a>
+                </li>
+                <li class="event" data-date="29 May 2023">
+                    <p>Passed the TOEIC Test: 718 / 990</p>
+                    <a class="category badge badge-circle badge-perso" href="#"><i class="fas fa-award fa-fw"></i>
+                        Award</a>
+                </li>
+                <li class="event" data-date="April 2023">
+                    <h3>Created the applications Notes</h3>
+                    <p>I want to know my general average before it's out. This application calculate the general average
+                        at EPITA for the S1 and S2.</p>
+                    <ul class="links">
+                        <li><a href="https://github.com/Clarisse78/Notes"><i class="fab fa-github fa-fw"></i> See the
+                                open source repository</a></li>
+                    </ul>
+                    <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
+                    <a class="badge badge-circle badge-info" style="top:44px;"><i class="fas fa-code-branch fa-fw"></i>
+                        Open source</a>
+                </li>
+                <li class="event" data-date="February 2023">
+                    <p>Passed the TOEIC Test: 703 / 990</p>
+                    <a class="category badge badge-circle badge-perso" href="#"><i class="fas fa-award fa-fw"></i>
+                        Award</a>
+                </li>
+                <li class="event" data-date="26 Nov 2022">
+                    <h3>Started working on Proxima's Quest</h3>
+                    <p>Proxima's Quest is a video game made using Unity as part of a school assignment in a group
+                        project.</p>
+                    <ul class="links">
+                        <li><a href="#"><i class="fas fa-link fa-fw"></i> See the website</a></li>
+                        <li><a href="https://godmelcorp.github.io/"><i class="fab fa-github fa-fw"></i> See the open
+                                source repository</a></li>
+                    </ul>
+                    <a class="badge badge-circle badge-info"><i class="fas fa-university fa-fw"></i> School</a>
+                    <a class="status badge badge-circle badge-success" style="top:44px;"><i
+                            class="fas fa-check fa-fw"></i> Finished</a>
+                </li>
+                <li class="event" data-date="1 Nov 2022">
+                    <h3>Learned the C# language</h3>
+                    <p>Studied at EPITA for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="1 Nov 2022">
+                    <h3>Learned the Python language</h3>
+                    <p>Studied at EPITA for practicals and school projects.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="7 Sept 2023">
+                    <p>Passed the TOEIC Test: 599 / 990</p>
+                    <a class="category badge badge-circle badge-perso" href="#"><i class="fas fa-award fa-fw"></i>
+                        Award</a>
+                </li>
+                <li class="event" data-date="2023">
+                    <p>10 new videos on my youtube channel</p>
+                    <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="5 Sept 2022">
+                    <h3>Learned the OCaml language</h3>
+                    <p>Studied at EPITA for practicals.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="11 Jul 2022">
+                    <h3>Start learning Python language</h3>
+                    <p>For prepare to the first year of EPITA, I decided to start learning programmation with python in
+                        first.</p>
+                    <a class="badge  badge-circle badge-know"><i class="fas fa-university fa-fw"></i> Knowledge</a>
+                </li>
+                <li class="event" data-date="2022">
+                    <p>6 new videos on my youtube channel</p>
+                    <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="2021">
+                    <p>25 new videos on my youtube channel</p>
+                    <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="29 Mars 2020">
+                    <h3>Started the developpement of Lunarys</h3>
+                    <p>I have the projet to do a Minecraft server with a friend. This the first version of the server,
+                        later we have replaced this project by an other of the same name.</p>
+                    <a class="badge badge-circle badge-perso"><i class="fas fa-user fa-fw"></i> Personal</a>
+                    <a class="badge badge-circle badge-know" style="top:44px;"><i class="fas fa-times fa-fw"></i>
+                        Rework</a>
+                </li>
+                <li class="event" data-date="2020">
+                    <p>25 new videos on my youtube channel</p>
+                    <a class="badge  badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="2019">
+                    <p>2 new videos on my youtube channel</p>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="2018">
+                    <p>More than 10 new videos on my youtube channel</p>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="2017">
+                    <p>More than 30 new videos on my youtube channel</p>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="11 Jul 2016">
+                    <h3>My first youtube video</h3>
+                    <p>I decided to post my first youtube video on my channel Clarisse78. This video is on Minecraft, on
+                        the Rinaorc server. This video was actually deleted.</p>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="2016">
+                    <p>More than 40 new videos on my youtube channel</p>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                </li>
+                <li class="event" data-date="2016">
+                    <h3>Created my youtube channel: Clarisse78</h3>
+                    <a class="badge badge-circle badge-content"><i class="fas fa-video fa-fw"></i> Content</a>
+                    <ul class="links">
+                        <li><a href="https://www.youtube.com/channel/UC7ppQlFWO4Z8Ax9oVlr5-aQ" target="_blank"><i
+                                    class="fas fa-link fa-fw"></i> See the youtube channel</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+
+        <section class="footer">
+            <p>Github<a href="https://github.com/Clarisse78/luciledorset.github.io"><i class="fab fa-github fa-fw"
+                        style="color:blue; padding-left: 5px;"></i> </a></p>
+            <p>Made With <i class="fa fa-heart fa-solid" style="color: red;"></i> by Clarisse78</p>
+        </section>
+
+        <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
     </div>
-
-    <section class="footer">
-        <p>Github<a href="https://github.com/Clarisse78/luciledorset.github.io"><i class="fab fa-github fa-fw" style="color:blue; padding-left: 5px;"></i> </a></p>
-        <p>Made With <i class="fa fa-heart fa-solid" style="color: red;"></i> by Clarisse78</p>
-    </section>
-
-    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
-
-</div>
 </body>
+
 </html>
