@@ -1,23 +1,64 @@
 /*  ============= WEB BROWSER RESETS ============ */
-* { margin: 0; padding: 0; border: none }
-*, *::before, *::after { box-sizing: border-box }
-html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
-scroll-behavior: smooth; scroll-padding-top: 20px }
-body { line-height: 1.5; min-height: 100vh }
-@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
-@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
-img { width: 100%; height: auto; display: block }
-input, button, textarea, select { font: inherit }
+* {
+  margin: 0;
+  padding: 0;
+  border: none
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh
+}
+
+@media (max-width: 767px) {
+  body {
+    text-rendering: optimizeSpeed
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    text-rendering: optimizeLegibility
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit
+}
 
 /* ================= ENDS ================ */
 
 * {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 body {
-    text-align: center;
-    color: whitesmoke;
+  text-align: center;
+  color: whitesmoke;
 }
 
 .timeline {
@@ -29,14 +70,15 @@ body {
   padding: 50px 50px 20px 50px;
 }
 
-.timeline h2, .timeline h3 {
-	font-size: 1.1rem;
-	margin-bottom: 10px;
+.timeline h2,
+.timeline h3 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
   font-weight: 600;
 }
 
 .timeline p {
-	font-size: 0.9rem;
+  font-size: 0.9rem;
   color: #e0e0e0;
 }
 
@@ -56,11 +98,11 @@ body {
     place-content:center;
   } }*/
 
-.rectangle{
-    width: 100px;
-    height: 35px;
-    border: 2px solid #2196F3;
-    padding: 3px 5px 0px 0px;
+.rectangle {
+  width: 100px;
+  height: 35px;
+  border: 2px solid #2196F3;
+  padding: 3px 5px 0px 0px;
 }
 
 .timeline .event:before {
@@ -74,9 +116,9 @@ body {
 
 .timeline .event:before,
 .timeline .event:after {
-    position: absolute;
-    display: block;
-    top: 0;
+  position: absolute;
+  display: block;
+  top: 0;
 }
 
 .timeline .event:after {
@@ -92,29 +134,32 @@ body {
   top: 5px;
 }
 
-@media (max-width: 789px ) { 
-  .bodytime{
+@media (max-width: 789px) {
+  .bodytime {
     padding-left: 75px;
     padding-top: 50px;
   }
 }
-@media (min-width: 790px ) { 
-  .bodytime{
+
+@media (min-width: 790px) {
+  .bodytime {
     padding-left: 175px;
     padding-top: 50px;
   }
 }
-@media (min-width: 1080px ) { 
-    .bodytime{
-      padding-left: 350px;
-      padding-top: 50px;
-  } }
+
+@media (min-width: 1080px) {
+  .bodytime {
+    padding-left: 350px;
+    padding-top: 50px;
+  }
+}
 
 
 @media (max-width: 789px) {
-    .timeline .event:after {
-        left: -31.8px;
-    }
+  .timeline .event:after {
+    left: -31.8px;
+  }
 }
 
 
@@ -125,59 +170,60 @@ body {
     top: 0;
     left: -180px;
     top: 25px;
-}
+  }
 }
 
 @media (max-width: 789px) {
-    .timeline .event:before {
-        left: 0px;
-        text-align: left;
-    }
+  .timeline .event:before {
+    left: 0px;
+    text-align: left;
+  }
 }
 
 @media (max-width: 789px) {
   .timeline .event {
-      padding-top: 30px;
+    padding-top: 30px;
   }
 }
 
 
 @media (max-width: 789px) {
   .timeline {
-      max-width: 98%;
-      padding: 25px;
+    max-width: 98%;
+    padding: 25px;
   }
 }
-.event{
+
+.event {
   position: relative;
   padding-bottom: 35px;
 }
 
-.list{
+.list {
   padding-bottom: -8px;
   list-style: none;
   padding-top: 0px;
 }
 
-.sub-sub-list{
+.sub-sub-list {
   list-style: disc;
   margin-left: 30px;
 }
 
 
-.sub-list{
+.sub-list {
   list-style: none;
 }
 
-.list li a:not(.sub-title-list){
-  position:relative;
+.list li a:not(.sub-title-list) {
+  position: relative;
   text-decoration: none;
   color: #d0d0d0;
   margin-left: 10px;
   font-size: 0.9rem;
 }
 
-.list li{
+.list li {
   margin-left: 0px;
 }
 
@@ -189,8 +235,8 @@ body {
 .badge {
   display: inline-block;
   padding: .25em .4em;
-    padding-right: 0.4em;
-    padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
   font-size: 65%;
   line-height: 1;
   white-space: nowrap;
@@ -208,7 +254,7 @@ body {
   background-color: #6c757d;
 }
 
-.badge-content{
+.badge-content {
   background-color: #c77171;
 }
 
@@ -233,7 +279,7 @@ body {
   background-color: #17a2b8;
 }
 
-.badge-dead{
+.badge-dead {
   color: #fff;
   background-color: red;
 }
@@ -241,38 +287,58 @@ body {
 
 
 .container-btn a.btn:nth-child(1):link,
- .container-btn a.btn:nth-child(1):visited { background-color: #00ADB5 }
+.container-btn a.btn:nth-child(1):visited {
+  background-color: #00ADB5
+}
 
- .container-btn a.btn:nth-child(1):link,
- .container-btn a.btn:nth-child(1):visited { border-color: #00ADB5 }
+.container-btn a.btn:nth-child(1):link,
+.container-btn a.btn:nth-child(1):visited {
+  border-color: #00ADB5
+}
 
-.container-btn a.btn:nth-child(1):visited { color: white }
-.container-btn a.btn:nth-child(1) { color: white }
+.container-btn a.btn:nth-child(1):visited {
+  color: white
+}
+
+.container-btn a.btn:nth-child(1) {
+  color: white
+}
 
 .container-btn a.btn:nth-child(1):focus,
- .container-btn a.btn:nth-child(1):hover,
- .container-btn a.btn:nth-child(1):active { background-color: transparent; color: #00ADB5;}
+.container-btn a.btn:nth-child(1):hover,
+.container-btn a.btn:nth-child(1):active {
+  background-color: transparent;
+  color: #00ADB5;
+}
 
 .container-btn a.btn:nth-child(2):focus,
 .container-btn a.btn:nth-child(2):hover,
-.container-btn a.btn:nth-child(2):active { background-color: #00ADB5 }
+.container-btn a.btn:nth-child(2):active {
+  background-color: #00ADB5
+}
 
 .container-btn a.btn:nth-child(2):link,
- .container-btn a.btn:nth-child(2):visited { border-color: #00ADB5 }
+.container-btn a.btn:nth-child(2):visited {
+  border-color: #00ADB5
+}
 
- .container-btn a.btn:nth-child(2):link,
-.container-btn a.btn:nth-child(2):visited { color: #00ADB5 }
+.container-btn a.btn:nth-child(2):link,
+.container-btn a.btn:nth-child(2):visited {
+  color: #00ADB5
+}
 
 .container-btn a.btn:nth-child(2):focus,
 .container-btn a.btn:nth-child(2):hover,
-.container-btn a.btn:nth-child(2):active { color: white }
+.container-btn a.btn:nth-child(2):active {
+  color: white
+}
 
 
- .container-btn {
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	row-gap: 30px;
+.container-btn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  row-gap: 30px;
   column-gap: 68px;
   justify-content: center;
   padding-top: 30px;
@@ -282,25 +348,26 @@ body {
 .hidden {
   display: none;
 }
+
 .sub-list {
-	margin-left: 8px;
-	padding-left: 1rem;
-	border-left: 2px solid #a0a0a0;
+  margin-left: 8px;
+  padding-left: 1rem;
+  border-left: 2px solid #a0a0a0;
 }
 
-.list-icon{
+.list-icon {
   margin-right: 5px;
 }
 
-.sub-title-list{
+.sub-title-list {
   font-variant: small-caps;
   font-size: 15px;
-  position:relative;
+  position: relative;
   text-decoration: none;
   color: #e6e6e6;
 }
 
-h3{
+h3 {
   color: #e6e6e6;
 }
 
@@ -308,8 +375,8 @@ h3{
 .img-badge {
   display: inline-block;
   padding: .25em .4em;
-    padding-right: 0.4em;
-    padding-left: 0.4em;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
   font-size: 65%;
   line-height: 1;
   white-space: nowrap;
@@ -323,11 +390,12 @@ h3{
 
 
 .a-img {
-	position: absolute;
-	top: 0;
-	left: -219px;
-	top: 25px;
+  position: absolute;
+  top: 0;
+  left: -219px;
+  top: 25px;
   width: 20%;
+  max-width: 165px;
 }
 
 @media (max-width: 1375px) {
@@ -360,18 +428,18 @@ h3{
   }
 }
 
-.under:hover{
+.under:hover {
   filter: brightness(90%);
 }
 
-.toggle-text{
+.toggle-text {
   color: #cacaca;
 }
 
-.gray{
+.gray {
   color: #cacaca;
 }
 
-.toggle{
+.toggle {
   cursor: pointer;
 }

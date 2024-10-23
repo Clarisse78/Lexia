@@ -82,27 +82,27 @@ header.theme-light h1 span.highlight {
   color: #00ADB5
 }
 
-.container-btn a.btn:nth-child(1):link,
-.container-btn a.btn:nth-child(1):visited {
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited {
   background-color: #00ADB5
 }
 
-.container-btn a.btn:nth-child(1):link,
-.container-btn a.btn:nth-child(1):visited {
+header.theme-light .container-btn a.btn:nth-child(1):link,
+header.theme-light .container-btn a.btn:nth-child(1):visited {
   border-color: #00ADB5
 }
 
-.container-btn a.btn:nth-child(1):focus,
-.container-btn a.btn:nth-child(1):hover,
+header.theme-light .container-btn a.btn:nth-child(1):focus,
+header.theme-light .container-btn a.btn:nth-child(1):hover,
 
-.container-btn a.btn:nth-child(1):active {
+header.theme-light .container-btn a.btn:nth-child(1):active {
   background-color: transparent;
   color: #00ADB5;
 }
 
-.container-btn a.btn:nth-child(2):focus,
-.container-btn a.btn:nth-child(2):hover,
-.container-btn a.btn:nth-child(2):active {
+header.theme-light .container-btn a.btn:nth-child(2):focus,
+header.theme-light .container-btn a.btn:nth-child(2):hover,
+header.theme-light .container-btn a.btn:nth-child(2):active {
   background-color: #00ADB5
 }
 
@@ -111,14 +111,14 @@ header.theme-light .container-btn a.btn:nth-child(2):visited {
   border-color: #00ADB5
 }
 
-.container-btn a.btn:nth-child(2):link,
-.container-btn a.btn:nth-child(2):visited {
+header.theme-light .container-btn a.btn:nth-child(2):link,
+header.theme-light .container-btn a.btn:nth-child(2):visited {
   color: #00ADB5
 }
 
-.container-btn a.btn:nth-child(2):focus,
-.container-btn a.btn:nth-child(2):hover,
-.container-btn a.btn:nth-child(2):active {
+header.theme-light .container-btn a.btn:nth-child(2):focus,
+header.theme-light .container-btn a.btn:nth-child(2):hover,
+header.theme-light .container-btn a.btn:nth-child(2):active {
   color: white
 }
 
@@ -212,65 +212,11 @@ h4 {
   font-weight: 20;
 }
 
-.langage {
-  background-color: var(--gray-800);
-  flex: 1;
-  text-align: center;
-}
-
-
 
 h3 {
   text-align: center;
   font-size: 42px;
 }
-
-.badge-language {
-  display: inline-block;
-  padding: .25em .4em;
-  padding-right: 0.4em;
-  padding-left: 0.4em;
-  white-space: nowrap;
-  vertical-align: baseline;
-  border-radius: .25rem;
-  text-decoration: none;
-  width: fit-content;
-  padding-top: 2px;
-  text-align: center;
-  font-weight: 700;
-  background-color: #3a404a;
-  text-align: center;
-}
-
-.langage ul {
-  padding-top: 10px;
-  text-align: center;
-  display: flex;
-  align-items: stretch;
-  justify-content: center;
-  flex-wrap: wrap;
-  padding-left: 20%;
-  padding-right: 20%;
-
-}
-
-.langage ul li {
-  display: flex;
-  float: left;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  font-size: 20px;
-}
-
-.badge-logo {
-  width: 29px;
-  height: auto;
-}
-
-li.badge-language a {
-  padding-right: 10px;
-}
-
 
 
 @media (min-width:767px) {
@@ -286,6 +232,7 @@ li.badge-language a {
 
 .three {
   background-color: var(--gray-800);
+  flex-wrap: wrap;
 }
 
 .project img {
@@ -319,6 +266,7 @@ li.badge-language a {
   border-radius: 4px;
   overflow: hidden;
   box-sizing: border-box;
+  max-width: 35rem;
 }
 
 @media (min-width:767px) {
@@ -409,6 +357,19 @@ li.badge-language a {
 .proxima {
   background: url(../img/proxima.png) top left/cover no-repeat;
 }
+
+.webdesign {
+  background: url(../img/webdesign.png) top left/cover no-repeat;
+}
+
+.oop {
+  background: url(../img/OOP.png) top left/cover no-repeat;
+}
+
+.woodshop {
+  background: url(../img/woodshop.png) top left/cover no-repeat;
+}
+
 
 
 .back:hover {
