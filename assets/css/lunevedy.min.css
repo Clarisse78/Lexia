@@ -994,7 +994,6 @@
          max-width: 400px;
          margin-left: auto;
          margin-right: auto;
-         margin-bottom: 42px;
      }
 
      div[class^="col-"] figure {
@@ -3201,7 +3200,8 @@
 
  nav.theme-dark,
  nav.theme-dark ul.links-wrapper.active {
-     background-color: #222831
+     background-color: #222831;
+     z-index: 4;
  }
 
  nav.theme-dark ul.links-wrapper li a:link,
@@ -3521,7 +3521,7 @@
      font-weight: 400;
      background-color: transparent;
      transition: .5s ease-in-out;
-     margin-top: 20px
+     margin-top: 10px
  }
 
  ul.links-wrapper.links-bold li a:not(.btn) {
@@ -4676,7 +4676,6 @@
  #email-form input,
  #email-form textarea {
      padding: 10px 12px;
-     border: 2px solid var(--black-000);
      border-radius: 5px;
  }
 
@@ -4765,7 +4764,7 @@
  .theme-dark #btn-submit.btn-solid:active {
      color: var(--white-000);
      background-color: var(--slate-700);
-     border-color: var(--slate-700);
+     border-color: #00ADB5;
  }
 
  .theme-dark #btn-submit.btn-outline {
@@ -4779,7 +4778,7 @@
  .theme-dark #btn-submit.btn-outline:active {
      color: var(--white-000);
      background-color: var(--slate-700);
-     border-color: var(--slate-700);
+     border-color: #00ADB5;
  }
 
  .theme-dark #btn-submit.btn-plain {

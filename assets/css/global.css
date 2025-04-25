@@ -1,21 +1,62 @@
 /*  ============= WEB BROWSER RESETS ============ */
-* { margin: 0; padding: 0; border: none }
-*, *::before, *::after { box-sizing: border-box }
-html { height: 100%; font-size: 100%; font: inherit; vertical-align: baseline;
-scroll-behavior: smooth; scroll-padding-top: 20px }
-body { line-height: 1.5; min-height: 100vh }
-@media (max-width: 767px ) { body { text-rendering: optimizeSpeed } }
-@media (min-width: 768px ) { body { text-rendering: optimizeLegibility } }
-img { width: 100%; height: auto; display: block }
-input, button, textarea, select { font: inherit }
+* {
+  margin: 0;
+  padding: 0;
+  border: none
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box
+}
+
+html {
+  height: 100%;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px
+}
+
+body {
+  line-height: 1.5;
+  min-height: 100vh
+}
+
+@media (max-width: 767px) {
+  body {
+    text-rendering: optimizeSpeed
+  }
+}
+
+@media (min-width: 768px) {
+  body {
+    text-rendering: optimizeLegibility
+  }
+}
+
+img {
+  width: 100%;
+  height: auto;
+  display: block
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit
+}
 
 /* ================= ENDS ================ */
 
 * {
-    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
-.footer{
+.footer {
   padding: .5em 1.5em;
   flex-wrap: wrap;
   width: auto;
@@ -25,26 +66,35 @@ input, button, textarea, select { font: inherit }
 
 
 ul.links-wrappers li::after {
-	content: '';
-	width: 0%;
-	height: 2px;
-	background: #f44336;
-	display: block;
-	margin: 0;
-	transition: 0.5s;
+  content: '';
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: 0;
+  transition: 0.5s;
 }
-
 
 @media (min-width: 768px) {
-  .logo-main{
-  width:25%;
+  .logo-main {
+    width: 40%;
+  }
 }
+
+@media (min-width: 1080px) {
+  .logo-main {
+    width: 25%;
+  }
 }
 
 @media (max-width: 768px) {
-  .logo-main{
-  width:60%;
+  .logo-main {
+    width: 60%;
+  }
 }
+
+.nav-toggle {
+  margin-top: 2%;
 }
 
 /*
@@ -95,4 +145,3 @@ ul.links-wrappers li::after {
 .nav-links {
   margin-left: auto;
 }*/
-

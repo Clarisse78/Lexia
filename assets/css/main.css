@@ -473,3 +473,54 @@ li.badge-language a {
   border-style: solid;
   border-color: var(--gray-800);
 }
+
+
+.language-bars {
+  display: inline-table;
+  justify-content: center;
+}
+
+.lang {
+  background-color: var(--gray-800);
+  flex: 1;
+  text-align: center;
+}
+
+
+
+.language-bar {
+  width: 250px;
+  height: 17px;
+  background-color: #e0e0e0;
+  position: relative;
+  border-radius: 10px;
+  margin: 20px 0;
+  overflow: visible;
+}
+
+.progress-container {
+  position: relative;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.progress {
+  background-color: var(--progress-color);
+  height: 100%;
+  position: absolute;
+  left: 0;
+  border-radius: 10px 0 0 10px;
+  width: var(--logo-position);
+}
+
+.language-logo {
+  position: absolute;
+  left: var(--logo-position);
+  height: auto;
+  overflow: auto;
+  margin-left: -15px;
+  position: absolute;
+  z-index: 3;
+  width: 31px;
+}

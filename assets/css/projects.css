@@ -358,12 +358,16 @@ h3 {
   background: url(../img/proxima.png) top left/cover no-repeat;
 }
 
-.webdesign {
-  background: url(../img/webdesign.png) top left/cover no-repeat;
+.grades {
+  background: url(../img/grades.png) top left/cover no-repeat;
 }
 
 .oop {
   background: url(../img/OOP.png) top left/cover no-repeat;
+}
+
+.webdesign {
+  background: url(../img/webdesign.png) top left/cover no-repeat;
 }
 
 .woodshop {

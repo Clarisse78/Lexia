@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lucile Pelou - Home</title>
+    <link rel="stylesheet" href="assets/css/lunevedy.min.css" />
+    <link rel="stylesheet" href=" assets/css/global.css ">
+    <link rel="stylesheet" href=" assets/css/contact.css ">
+    <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/fontawesome5-overrides.min.css">
+</head>
+
+<body style="max-width: 1920px; margin-left: auto; margin-right: auto;">
+    <nav class="theme-dark">
+        <div class="container-menu">
+            <a href="#" class="brand">
+                <img src="assets/img/logo_main2.png" class="logo-main" alt="Sample website logo">
+            </a>
+
+            <div class="container-menu-links">
+
+                <div class="nav-toggle" id="nav-toggle-btn" style="background:#222831;">
+                    <div class="bar-1"></div>
+                    <div class="bar-2"></div>
+                    <div class="bar-3"></div>
+                </div>
+
+                <ul class="links-wrapper">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="timeline_min.html">Timeline</a></li>
+                    <li><a href="travels.html">Travels</a></li>
+                    <li style="display:none"><a class="btn btn-solid btn-soft" id="btn-cta"><span>Contact</span><i
+                                class="fa fa-envelope" aria-hidden="true"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <div class="columns">
+        <div class="head-contact">
+            <div>
+                <h1>Get in touch</h1>
+                <h2>Have a project you would like to discuss? Let's make something great together! Email me at <a
+                        href="mailto:lucile.pelou@epita.fr?subject=Mail from my Personal Website">lucile.pelou@epita.fr</a>
+                    or use the form below to let me know a little more about your objectives and I'll get back to you.
+                </h2>
+            </div>
+        </div>
+        <div class="contact">
+            <form id="email-form" name="email-form" charset="utf-8" method="post"
+                action="https://formspree.io/f/mnqepbpr">
+
+                <div class="form-row">
+                    <label for="full_name">Full Name</label>
+                    <input type="text" name="full_name" id="full_name" required="">
+                </div>
+
+                <div class="form-row">
+                    <label for="email_address">Email</label>
+                    <input data-validate="email" aria-required="true" type="email" name="email_address"
+                        id="email_address" required="">
+                </div>
+
+                <div class="form-row">
+                    <label for="form_message">How can I help you?</label>
+                    <textarea aria-required="true" rows="3" name="form_message" id="form_message"
+                        required=""></textarea>
+                </div>
+
+                <div class="form-footer">
+                    <button id="btn-submit" class="btn-solid" type="submit" data-validate="submit"
+                        aria-label="Send message"><span>Send</span><i class="fas fa-arrow-right"></i></button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <section class="footer">
+        <p>Github<a target="_blank" href="https://github.com/Clarisse78/Lexia"><i class="fab fa-github fa-fw"
+                    style="color:blue; padding-left: 5px;"></i> </a></p>
+        <p>Made With <i class="fa fa-heart fa-solid" style="color: red;"></i> by Clarisse78</p>
+    </section>
+
+    <script src="https://lunevedy.com/assets/js/lunevedy.js"></script>
+
+</body>
+
+</html>
